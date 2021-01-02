@@ -38,7 +38,7 @@ html {
   height: 100%;
   width: 100%;
   background-color: #fff;
-  transition: opacity 2.9s ease;
+  transition: opacity 0.5s ease;
   z-index: 99999;
 }
 
