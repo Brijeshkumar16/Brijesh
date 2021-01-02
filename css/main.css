@@ -25,6 +25,32 @@ html {
   padding-right: 1rem;
 }
 
+/* ===== LOADER START ===== */
+.loader {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  transition: opacity 2.9s ease;
+  z-index: 99999;
+}
+
+.loader img {
+  width: 100%;
+}
+
+.finish {
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* ===== NAV START ===== */
 nav {
   background-color: #fffaeb;
