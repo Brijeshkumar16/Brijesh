@@ -16,11 +16,6 @@
 </head>
 
 <body>
-    <!-- ===== LOADER START ===== -->
-    <div class="loader">
-        <img src="img/loader.gif" alt="img">
-    </div>
-
     <!-- ===== NAV START ===== -->
     <nav class="full-width">
         <div class="nav-center fix-width">
@@ -30,23 +25,22 @@
             </div>
             <div class="nav-link">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- ===== HERO START ===== -->
-    <section class="hero full-width">
+    <section class="hero full-width" id="home">
         <div class="flex fix-width">
             <div class="hero-left">
                 <div class="border"></div>
                 <h1>I'm Brijesh</h1>
                 <p>Junior Frontend Web Developer</p>
-                <a href="contact.html" class="btn">HIRE ME</a>
+                <a href="#project" class="btn">MY PROJECT</a>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/brijeshkumar-yadav-1527b21b8/" target="_blank"><i
                             class="fab fa-linkedin"></i></a>
@@ -61,7 +55,7 @@
     </section>
 
     <!-- ===== ABOUT START =====  -->
-    <section class="about fix-width">
+    <section class="about fix-width" id="about">
         <div class="flex">
             <div class="about-left">
                 <img src="img/Brijesh1.png" alt="Image" />
@@ -76,59 +70,114 @@
                     back-end web developers, who are responsible for server-side 
                     application logic and integration of the work I can do.
                 </p>
-                <a href="about.html">ABOUT ME</a>
+                <a href="#skill" class="btn">MY SKILL</a>
             </div>
         </div>
     </section>
 
-    <!-- ===== WORK START ===== -->
-    <section class="work fix-width">
-        <div class="work-header">
-            <h1>Latest Works</h1>
-            <div class="border"></div>
-        </div>
-        <div class="flex">
-            <div class="work-info">
-                <a href="project.html">
-                    <img src="img/work1.png" alt="Image" />
-                    <div class="hover">
-                        <h2>
-                            Project <br />
-                            Vanilla
-                        </h2>
-                    </div>
-                </a>
+    <!-- ===== PROJECT START ===== -->
+    <section class="project full-width" id="project">
+        <div class="fix-width">
+            <div class="project-header">
+                <h1>My Project</h1>
+                <div class="border"></div>
             </div>
-            <div class="work-info">
-                <a href="project.html">
-                    <img src="img/work2.png" alt="Image" />
-                    <div class="hover">
-                        <h2>Project <br />
-                            Evolo</h2>
+            <div class="flex">
+                <div class="project-detail">
+                    <div class="img">
+                        <img src="img/work1.png" alt="Images">
+                        <a href="https://brijeshkumar16.github.io/Vanilla/" target="_blank"><i
+                                class="fas fa-home"></i></a>
                     </div>
-                </a>
-            </div>
-            <div class="work-info">
-                <a href="project.html">
-                    <img src="img/work3.png" alt="Image" />
-                    <div class="hover">
-                        <h2>Project <br />Fusion</h2>
+                    <div class="project-info">
+                        <h2>Project Vanilla</h2>
+                        <span>HTML-5</span>
+                        <span>CSS-3</span>
+                        <span>Javascript</span>
+                        <br>
+                        <a href="https://github.com/Brijeshkumar16/Vanilla" target="_blank">Source Code</a>
                     </div>
-                </a>
-            </div>
-            <div class="work-info">
-                <a href="project.html">
-                    <img src="img/work4.png" alt="Image" />
-                    <div class="hover">
-                        <h2>Project <br />Hielo</h2>
+                </div>
+                <div class="project-detail">
+                    <div class="img">
+                        <img src="img/work2.png" alt="Images">
+                        <a href="https://brijeshkumar16.github.io/Evolo/" target="_blank"><i
+                                class="fas fa-home"></i></a>
                     </div>
-                </a>
+                    <div class="project-info">
+                        <h2>Project Evolo</h2>
+                        <span>Bootstrap</span>
+                        <span>HTML-5</span>
+                        <span>CSS-3</span>
+                        <br>
+                        <a href="https://github.com/Brijeshkumar16/Evolo" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-detail">
+                    <div class="img">
+                        <img src="img/work3.png" alt="Images">
+                        <a href="https://brijeshkumar16.github.io/Flat/" target="_blank"><i class="fas fa-home"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <h2>Project Flat</h2>
+                        <span>HTML-5</span>
+                        <span>CSS-3</span>
+                        <span>Javascript</span>
+                        <br>
+                        <a href="https://github.com/Brijeshkumar16/Flat" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-detail">
+                    <div class="img">
+                        <img src="img/work4.png" alt="Images">
+                        <a href="https://brijeshkumar16.github.io/Producto/" target="_blank"><i
+                                class="fas fa-home"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <h2>Project Producto</h2>
+                        <span>Bootstrap</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <br>
+                        <a href="https://github.com/Brijeshkumar16/Producto" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-detail">
+                    <div class="img">
+                        <img src="img/work5.png" alt="Images">
+                        <a href="https://brijeshkumar16.github.io/Softy/" target="_blank"><i
+                                class="fas fa-home"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <h2>Project Softy</h2>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Javascript</span>
+                        <br>
+                        <a href="https://github.com/Brijeshkumar16/Softy" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-detail">
+                    <div class="img">
+                        <img src="img/work6.png" alt="Images">
+                        <a href="https://brijeshkumar16.github.io/Backroads/" target="_blank"><i
+                                class="fas fa-home"></i></a>
+                    </div>
+                    <div class="project-info">
+                        <h2>Project Backroads</h2>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Javascript</span>
+                        <br>
+                        <a href="https://github.com/Brijeshkumar16/Backroads" target="_blank">Source Code</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ===== SKILL START =====  -->
-    <section class="skill full-width">
+    <section class="skill full-width" id="skill">
         <div class="fix-width">
             <div class="skill-header">
                 <h1>Frontend Web Development Skills :)</h1>
